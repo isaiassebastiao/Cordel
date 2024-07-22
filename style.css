@@ -1,0 +1,84 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'cabeca';
+    src: url('Fredericka_the_Great/FrederickatheGreat-Regular.ttf');
+}
+@font-face {
+    font-family: 'para';
+    src: url('Bebas_Neue/BebasNeue-Regular.ttf');
+}
+body{
+   
+}
+:root{
+    --font1:'cabeca';
+    --font2:'para';
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 45px;
+    text-align: center; 
+}
+html, body{
+    background-color: rgb(231, 231, 231);
+}
+
+header h1{
+    padding: 20px;
+    font-variant: small-caps;
+    font-size: 8vw;
+}
+a{
+    color:white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header p{
+    font-size: 2vw;
+}
+a:hover{
+    text-decoration: underline;
+    
+}
+.normal{
+padding: 40px;
+}
+section.foto{
+ padding: 60px 20px;
+ color: white;
+ font-weight: bolder;
+ text-shadow: 2px 2px 2px black;
+ background-size: cover;
+ background-attachment: fixed;
+}
+section.foto >p{
+    padding: 20px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.432);   
+}
+p{
+    padding: 20px;
+}
+section{
+    font-size: 3vw;   
+}
+#ft1{
+background-image: url('imagens/background001.jpg');
+background-position: right center;
+}
+#ft2{
+background-image: url('imagens/background002.jpg');
+
+}
+footer{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.2em; 
+}
